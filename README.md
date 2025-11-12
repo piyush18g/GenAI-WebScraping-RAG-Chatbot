@@ -16,4 +16,5 @@ Retrieval Mechanism: o The system maintains a pre-processed e-commerce knowledge
 Generative Model: o After retrieving the relevant data, the generative model (such as a GPT-based model) is tasked with crafting a human-like response using the context provided by the retrieved documents.
 Chatbot Pipeline: o Step 1: User submits a query (e.g., "What are the top features of Product X?"). o Step 2: The retrieval component searches for relevant documents or product details related to Product X from the knowledge base. o Step 3: The retrieved information is passed to the generative model, which formulates a coherent, context-aware response. o Step 4: The response is delivered to the user in a conversational manner.
 ## Architecture:
-image
+<img width="975" height="914" alt="1762961283153469919419124018016" src="https://github.com/user-attachments/assets/da7dd4c8-b1bd-475b-acf9-b8ea801bd22a" />
+
