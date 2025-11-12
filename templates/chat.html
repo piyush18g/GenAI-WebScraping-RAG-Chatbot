@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat</title>
+</head>
+<body>
+
+<h1>Chat with Documents</h1>
+
+<form method="POST">
+    <input type="text" name="question" placeholder="Ask something..." required>
+    <button type="submit">Send</button>
+</form>
+
+<hr>
+
+{% if chat_history %}
+    <h3>Chat History:</h3>
+    <ul>
+        {% for message in chat_history %}
+            <li>{{ message }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+
+</body>
+</html>
